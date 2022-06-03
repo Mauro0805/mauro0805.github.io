@@ -9,11 +9,11 @@
   border: solid 3px black;
 }
 .form-control {
-  width:40%;
-  display: inline;
+  width: 10%;
+  display: inline-flex;
 }
 button {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 div.gallery img {
