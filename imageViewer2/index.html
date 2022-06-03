@@ -19,6 +19,8 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
       <input type="file" multiple id="gallery-photo-add" accept="image/*" />
+      <input type="button" value="Clean" onClick="document.location.reload(true)">     
+      <div>
       <input
         type="range"
         min="1"
@@ -28,12 +30,10 @@
         id="sizeInput"
         class="slider"
       />
-
       <label id="sizeDisplay"></label>
-
+    </div>
     </div>
     <div class="gallery"></div>
     <script src="js/script.js"></script>
-
   </body>
 </html>
