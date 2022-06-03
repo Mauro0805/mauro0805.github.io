@@ -1,0 +1,22 @@
+:root {
+  --sizer: 50px;
+}
+
+.top-panel {
+  position: sticky;
+  color: white;
+  padding: 20px;
+  border: solid 3px black;
+}
+.form-control {
+  width: 40%;
+  display: inline;
+}
+button {
+  margin-left: 20px;
+}
+
+div.gallery img {
+  width: var(--sizer);
+  height: auto;
+}
