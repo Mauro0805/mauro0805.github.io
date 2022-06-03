@@ -9,8 +9,7 @@
   border: solid 3px black;
 }
 .form-control {
-  width: 10%;
-  display: inline;
+  width: 100%;
 }
 button {
   margin-left: 20px;
