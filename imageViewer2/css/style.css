@@ -9,7 +9,7 @@
   border: solid 3px black;
 }
 .form-control {
-  width: 1000%;
+  width: auto;
 }
 button {
   margin-left: 20px;
