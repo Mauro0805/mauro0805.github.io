@@ -4,34 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Image Viewer</title>
   </head>
-
   <body>
     <div class="top-panel bg-dark">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
       <input type="file" multiple id="gallery-photo-add" accept="image/*" />
-      <input type="button" value="Clean" onClick="document.location.reload(true)">     
+      <input type="button" value="Clean" onClick="document.location.reload(true)">
       <div>
-      <input
-        type="range"
-        min="5"
-        max="750"
-        step="0.2"
-        value="150"
-        id="sizeInput"
-        class="slider"
-      />
-      <label id="sizeDisplay"></label>
-    </div>
+        <input type="range" min="20" max="650" step="0.2" value="127" id="sizeInput" class="slider" />
+        <label id="sizeDisplay"></label>
+      </div>
     </div>
     <div class="gallery"></div>
     <script src="js/script.js"></script>
