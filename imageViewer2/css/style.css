@@ -5,11 +5,11 @@
 .top-panel {
   position: sticky;
   color: white;
-  padding: 20px;
-  border: solid 3px black;
+  padding: 25px;
+  border: solid 4px black;
 }
 .form-control {
-  width: 100%
+  width: 100%;
   display: flex;
 }
 
