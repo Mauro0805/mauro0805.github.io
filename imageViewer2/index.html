@@ -18,7 +18,7 @@
     <div class="top-panel bg-dark">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-      <input type="file" multiple id="gallery-photo-add" />
+      <input type="file" multiple id="gallery-photo-add" accept="image/*" />
       <label>Size</label>
       <input
         type="range"
@@ -27,6 +27,7 @@
         step="0.5"
         value="250"
         id="sizeInput"
+        class="form-control"
       />
       <label id="sizeDisplay"></label>
     </div>
