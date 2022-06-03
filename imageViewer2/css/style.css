@@ -11,8 +11,7 @@
 
 .slider {
   -webkit-appearance: none;
-  width: 100%;
- display: inline-flex;
+  width: 50%;
   height: 7px;
   border-radius: 2px;  
   background: #d3d3d3;
