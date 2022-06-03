@@ -5,21 +5,20 @@
 .top-panel {
 	position: sticky;
 	color: white;
-	padding: 35px;
+	padding: 6px;
 	border: solid 2px black;
 }
 
 .slider {
 	-webkit-appearance: none;
-	width: 80%;
+	width: 95%;
 	height: 7px;
-	border-radius: 2px;
+	border-radius: 4px;
 	background: #d3d3d3;
 	outline: none;
 	opacity: 0.7;
 	-webkit-transition: .2s;
 	transition: opacity .2s;
-	display: flex;
 }
 
 .slider::-webkit-slider-thumb {
