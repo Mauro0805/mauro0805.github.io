@@ -3,9 +3,8 @@ var sizeDisplay = document.getElementById("sizeDisplay")
 var root = document.querySelector(':root');
 
 
-
 $(function() {
-	// Multiple images preview in browser
+
 	var imagesPreview = function(input, placeToInsertImagePreview) {
 
 		if (input.files) {
@@ -29,7 +28,10 @@ $(function() {
 	});
 });
 setInterval(() => {
-	sizeDisplay.innerText = sizeInput.value + "px"
 	var sI = sizeInput.value + "px"
+	sizeDisplay.innerText = sI
 	root.style.setProperty('--sizer', sI)
 })
+window.onbeforeunload = function(e) {
+    document.cookie = 'cookiename=; expires=' + d.toGMTString() + ';';
+};
