@@ -10,8 +10,8 @@
 }
 .form-control {
   width: 1%;
-  height: 2px;
-  display: inline-flex;
+  height: 3%;
+  display: inline;
 }
 
 div.gallery img {
