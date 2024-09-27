@@ -1,2 +1,2 @@
 # Image Viewer
-Visit ttps://mauro0805.github.io/imageViewer2/
+Visit https://mauro0805.github.io/imageViewer2/
